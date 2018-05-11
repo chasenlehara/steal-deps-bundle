@@ -1,0 +1,21 @@
+{
+  "name": "steal-deps-bundle",
+  "version": "0.1.0",
+  "author": "Bitovi",
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {
+    "build": "steal-tools build",
+    "deps-bundle": "steal-tools bundle --deps",
+    "clean": "rm -rf dist/bundles dist/steal.production.js",
+    "start": "http-server"
+  },
+  "dependencies": {
+    "xrm-mock": "^3.1.0"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1",
+    "steal": "^1.6.4",
+    "steal-tools": "^1.11.2"
+  }
+}
